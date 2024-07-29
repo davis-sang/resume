@@ -19,10 +19,16 @@
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
+   <style>
+      #visit-count {
+         color: white;
+         font-weight: bold;
+      }
+   </style>
+
    <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
-
    <!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="images/favicon.png" >
@@ -47,20 +53,21 @@
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Hi, I'm Davis <span> &#128075;&#127997;</span></h1>
-            <h3> <a class="smoothscroll" href="#about"></a>
-            <a class="smoothscroll" href="#about"></a>.</h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://www.linkedin.com/in/davis-sang/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://github.com/davissang"><i class="fa fa-github"></i></a></li>
-               <li><a href=""><i class="fa fa-external-link"></i></a></li>
-            </ul>
-         </div>
-      </div>
+<div class="row banner">
+   <div class="banner-text">
+      <h1 class="responsive-headline">Hi, I'm Davis <span> &#128075;&#127997;</span></h1>
+      <p>You have visited this site <span id="visit-count"></span> times.</p>
+      <h3> <a class="smoothscroll" href="#about"></a>
+         <a class="smoothscroll" href="#about"></a>.
+      </h3>
+      <hr />
+      <ul class="social">
+         <li><a href="https://www.linkedin.com/in/davis-sang/"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="https://github.com/davissang"><i class="fa fa-github"></i></a></li>
+         <li><a href=""><i class="fa fa-external-link"></i></a></li>
+      </ul>
+   </div>
+</div>
 
       <p class="scrolldown">
          <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
@@ -85,7 +92,7 @@
          <div class="nine columns main-col">
 
             <h2>About Me</h2>
-
+            
             <p>
                Hi, i'm Davis Sang a Network Automation engineer. I'm a passionate cloud and networking enthusiast.
                # Always tinkering 🛠️🛠️ 
@@ -116,7 +123,7 @@
 
                 <div class="twelve columns">
  
-                   <h3>Juniper Networks Certified Associate, Junos (JNCIA-Junos)</h3>
+                   <h3>Juniper Networks Certified Associate, Junos (JNCIA-Junos)</h3> 
                    <p class="info"><span>&bull;</span> <em class="date">Sept 2023</em></p>
  
                 </div>
@@ -263,6 +270,7 @@
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
+   <script src="js/counter.js"></script>
    <script src="js/init.js"></script>
 
 </body>
